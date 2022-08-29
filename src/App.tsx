@@ -3,6 +3,7 @@ import SplashSection from './components/SplashSection';
 import Column from './components/Column';
 import ArchetypesSection from './components/ArchetypesSection';
 import ShufflingSection from './components/ShufflingSection';
+import TableOfContentsSection from './components/TableOfContentsSection';
 
 const Article = styled(Column)`
   font-family: 'Raleway', sans-serif;
@@ -20,6 +21,8 @@ function App() {
   return (
     <Article>
       <SplashSection />
+      <TableOfContentsSection />
+      <hr />
       <ArchetypesSection />
       <hr />
       <ShufflingSection />

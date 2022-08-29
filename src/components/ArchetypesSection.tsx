@@ -7,6 +7,8 @@ import b from '../assets/b.png';
 import r from '../assets/r.png';
 import g from '../assets/g.png';
 import Row from './Row';
+import GRNArchetypeList from './GRNArchetypeList';
+import RNAArchetypeList from './RNAArchetypeList';
 
 const ArchetypesStyled = styled(Column)`
   align-items: center;
@@ -33,7 +35,7 @@ const ArchetypeBlurb = styled.div`
 
 export default function ArchetypesSection() {
   return (
-    <ArchetypesStyled>
+    <ArchetypesStyled id="archetypes-section">
       <h2>Archetypes</h2>
       <p>
         The Commander Cube is geared towards providing players with strong draft archetypes focused around 2-color pairings.
@@ -42,70 +44,8 @@ export default function ArchetypesSection() {
         The 2-color draft archetypes for my cube are as follows:
       </p>
       <Row>
-        <ul>
-          <li>
-            <img src={u} alt="u" />
-            <img src={r} alt="r" />
-            &nbsp;
-            <a href="#agents-of-artifice">Agents of Artifice</a>
-          </li>
-          <li>
-            <img src={g} alt="g" />
-            <img src={b} alt="b" />
-            &nbsp;
-            <a href="#a-greater-sacrifice">A Greater Sacrifice</a>
-          </li>
-          <li>
-            <img src={r} alt="r" />
-            <img src={w} alt="w" />
-            &nbsp;
-            <a href="#spells-thunder">Spell&apos;s Thunder</a>
-          </li>
-          <li>
-            <img src={u} alt="u" />
-            <img src={b} alt="b" />
-            &nbsp;
-            <a href="#delving-for-power">Delving for Power</a>
-          </li>
-          <li>
-            <img src={w} alt="w" />
-            <img src={g} alt="g" />
-            &nbsp;
-            <a href="#count-on-our-strength">Count on Our Strength</a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <img src={w} alt="w" />
-            <img src={b} alt="b" />
-            &nbsp;
-            <a href="#life-exacts-a-toll">Life Exacts a Toll</a>
-          </li>
-          <li>
-            <img src={u} alt="u" />
-            <img src={g} alt="g" />
-            &nbsp;
-            <a href="#lands-bounty">Land&apos;s Bounty</a>
-          </li>
-          <li>
-            <img src={r} alt="r" />
-            <img src={b} alt="b" />
-            &nbsp;
-            <a href="#all-star-offense">All-Star Offense</a>
-          </li>
-          <li>
-            <img src={u} alt="u" />
-            <img src={w} alt="w" />
-            &nbsp;
-            <a href="#above-the-clouds">Above the Clouds</a>
-          </li>
-          <li>
-            <img src={r} alt="r" />
-            <img src={g} alt="g" />
-            &nbsp;
-            <a href="#maximum-impact">Maximum Impact</a>
-          </li>
-        </ul>
+        <GRNArchetypeList />
+        <RNAArchetypeList />
       </Row>
       <Row style={{ alignItems: 'flex-start', marginBottom: '20px' }}>
         <Column>

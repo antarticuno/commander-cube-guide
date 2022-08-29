@@ -16,7 +16,7 @@ const ShufflingStyled = styled(Column)`
 
 export default function ShufflingSection() {
   return (
-    <ShufflingStyled>
+    <ShufflingStyled id="shuffling-section">
       <h2>Shuffling the Cube</h2>
       <p>
         After every draft, it&apos;s generally a good idea to shuffle up the cards in preparation for the next draft.
