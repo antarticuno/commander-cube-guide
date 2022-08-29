@@ -4,6 +4,7 @@ import Column from './components/Column';
 import ArchetypesSection from './components/ArchetypesSection';
 import ShufflingSection from './components/ShufflingSection';
 import TableOfContentsSection from './components/TableOfContentsSection';
+import RulesSection from './components/RulesSection';
 
 const Article = styled(Column)`
   font-family: 'Raleway', sans-serif;
@@ -22,6 +23,8 @@ function App() {
     <Article>
       <SplashSection />
       <TableOfContentsSection />
+      <hr />
+      <RulesSection />
       <hr />
       <ArchetypesSection />
       <hr />

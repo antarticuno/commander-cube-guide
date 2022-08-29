@@ -24,7 +24,7 @@ export default function TableOfContentsSection() {
     <TableOfContentsStyled>
       <h2>Table of Contents</h2>
       <ul>
-        <li><h3>Rules</h3></li>
+        <li><h3><a href="#rules-section">Rules</a></h3></li>
         <li>
           <h3><a href="#archetypes-section">Archetypes</a></h3>
           <GRNArchetypeList />
