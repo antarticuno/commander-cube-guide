@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import dreadhorde from './assets/dreadhorde.jpeg';
+import deicide from './assets/deicide.jpg';
 import SplashSection from './components/SplashSection';
 import Column from './components/Column';
 import ArchetypesSection from './components/ArchetypesSection';
@@ -9,6 +11,23 @@ import RulesSection from './components/RulesSection';
 const Article = styled(Column)`
   font-family: 'Raleway', sans-serif;
   
+  a {
+    color: #2E2633;
+    text-decoration: none;
+    cursor: pointer;
+    
+    &:hover {
+      color: #009489;
+    }
+    
+    &:visited {
+      color: #2E2633;
+      
+      &:hover {
+        color: #009489;
+      }
+    }
+  }
   p {
     font-weight: 200;
   }
@@ -21,11 +40,18 @@ const Article = styled(Column)`
 function App() {
   return (
     <Article>
-      <SplashSection />
+      <SplashSection image={dreadhorde}>
+        <>
+          <h1>Commander Cube Rules &amp; Archetypes</h1>
+          <p>Designed by: Brendan Yang</p>
+        </>
+      </SplashSection>
       <TableOfContentsSection />
       <hr />
       <RulesSection />
-      <hr />
+      <SplashSection image={deicide}>
+        <p>&quot;It is done.&quot; - Elspeth</p>
+      </SplashSection>
       <ArchetypesSection />
       <hr />
       <ShufflingSection />

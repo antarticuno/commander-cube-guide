@@ -1,10 +1,10 @@
 import styled from 'styled-components';
+import { ReactNode } from 'react';
 import Row from './Row';
-import dreadhorde from '../assets/dreadhorde.jpeg';
 
-const SplashStyle = styled(Row)`
+const SplashStyle = styled(Row)<{ image: string }>`
   width: 100%;
-  background-image: url(${dreadhorde});
+  background-image: url(${(props) => props.image});
   min-height: 100vh;
   background-size: cover;
   background-repeat: none;
@@ -26,17 +26,21 @@ const SplashStyle = styled(Row)`
     p {
       margin: 0;
       font-style: italic;
-      font-size: 0.9em;
+      font-size: 1em;
     }
   }
 `;
 
-export default function SplashSection() {
+export interface SplashProps {
+  image: string,
+  children: ReactNode,
+}
+
+export default function SplashSection({ image, children }: SplashProps) {
   return (
-    <SplashStyle>
+    <SplashStyle image={image}>
       <div>
-        <h1>Commander Cube Rules &amp; Archetypes</h1>
-        <p>Designed by: Brendan Yang</p>
+        {children}
       </div>
     </SplashStyle>
   );
