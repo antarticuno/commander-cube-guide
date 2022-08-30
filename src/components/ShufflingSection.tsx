@@ -28,6 +28,7 @@ export default function ShufflingSection() {
         &nbsp;two (2) commander cards. Additionally, there are some extra measures that you can take while shuffling to better the
         &nbsp;odds that all packs have at least 1 card of every color represented. The method I&apos;ve devised takes large inspiration from
         &nbsp;the&nbsp;
+        {/* eslint-disable-next-line max-len */}
         <a href="https://www.reddit.com/r/mtgcube/comments/34fet8/novel_method_for_shuffling_a_cube/" target="_blank" rel="noreferrer">Reddit post here</a>
         , so feel free to check that out if you&apos;re curious behind the math of it all. Listed below
         &nbsp;is my own cube&apos;s formula/instructions (calculated on a 500 card cube).
