@@ -3,7 +3,7 @@ import Column from './Column';
 
 const ShufflingStyled = styled(Column)`
   align-items: center;
-  padding: 30px 100px;
+  padding: 30px 10%;
   
   h2 {
     width: 100%;
