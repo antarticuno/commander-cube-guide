@@ -31,6 +31,7 @@ export default function TableOfContentsSection() {
           <RNAArchetypeList />
         </li>
         <li><h3><a href="#shuffling-section">Shuffling the Cube</a></h3></li>
+        <li><h3><a href="#quick-reference-section">Quick Reference</a></h3></li>
       </ul>
     </TableOfContentsStyled>
   );

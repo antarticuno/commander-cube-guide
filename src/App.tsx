@@ -7,6 +7,7 @@ import ArchetypesSection from './components/ArchetypesSection';
 import ShufflingSection from './components/ShufflingSection';
 import TableOfContentsSection from './components/TableOfContentsSection';
 import RulesSection from './components/RulesSection';
+import QuickReferenceSection from './components/QuickReferenceSection';
 
 const Article = styled(Column)`
   font-family: 'Raleway', sans-serif;
@@ -55,6 +56,8 @@ function App() {
       <ArchetypesSection />
       <hr />
       <ShufflingSection />
+      <hr />
+      <QuickReferenceSection />
     </Article>
   );
 }
