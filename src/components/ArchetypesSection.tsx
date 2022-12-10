@@ -13,6 +13,8 @@ import RNAArchetypeList from './RNAArchetypeList';
 const ArchetypesStyled = styled(Column)`
   align-items: center;
   padding: 30px 10%;
+  max-width: 100vw;
+  overflow: scroll;
   
   h2 {
     width: 100%;
@@ -47,11 +49,12 @@ export default function ArchetypesSection() {
         <GRNArchetypeList />
         <RNAArchetypeList />
       </Row>
-      <Row style={{ alignItems: 'flex-start', marginBottom: '20px' }}>
-        <Column>
+      <Row style={{ alignItems: 'flex-start', marginBottom: '20px', justifyContent: 'center' }}>
+        <Column style={{ maxWidth: '45vw' }}>
           <ArchetypeBlurb>
             <h4 id="back-from-exile">
-              Back from Exile&nbsp;
+              Back from Exile
+              {' '}
               <img src={u} alt="u" />
               <img src={r} alt="r" />
             </h4>
@@ -60,14 +63,15 @@ export default function ArchetypesSection() {
               &nbsp;Utilize mechanics like cascade and adventure that guarantee multiple card&apos;s worth of value.
               &nsbp;Notable standout picks for this archetype include&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=553732">Kami of Celebration</a>
-              &nbsp;and&nbsp;
+              {' and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=513678">Expressive Iteration</a>
               .
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
             <h4 id="a-greater-sacrifice">
-              A Greater Sacrifice&nbsp;
+              A Greater Sacrifice
+              {' '}
               <img src={g} alt="g" />
               <img src={b} alt="b" />
             </h4>
@@ -76,14 +80,15 @@ export default function ArchetypesSection() {
               &nbsp;reanimation spells and efficiently costed (and often re-animatable) creatures, you&apos;ll be sure to wear down your
               &nbsp;opponents&apos; defenses in no time! Notable standout picks for this archetype include&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=539379">Fleshbag Marauder</a>
-              &nbsp;and&nbsp;
+              {' and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=430381">Viridian Emissary</a>
               .
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
             <h4 id="spells-thunder">
-              Spell&apos;s Thunder&nbsp;
+              Spell&apos;s Thunder
+              {' '}
               <img src={r} alt="r" />
               <img src={w} alt="w" />
             </h4>
@@ -92,9 +97,9 @@ export default function ArchetypesSection() {
               &nbsp;casting instant and sorcery spells to add value to every spell cast.&nbsp;
               Then, cast a mass-damage dealing spell and watch the world burn. Notable standout picks for this archetype include&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=470691">Guttersnipe</a>
-              ,&nbsp;
+              {', '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=513497">Leonin Lightscribe</a>
-              , and&nbsp;
+              {', and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=519217">Volcanic Vision</a>
               .
             </p>
@@ -102,6 +107,7 @@ export default function ArchetypesSection() {
           <ArchetypeBlurb>
             <h4 id="delving-for-power">
               Delving for Power
+              {' '}
               <img src={u} alt="u" />
               <img src={b} alt="b" />
             </h4>
@@ -120,6 +126,7 @@ export default function ArchetypesSection() {
           <ArchetypeBlurb>
             <h4 id="count-on-our-strength">
               Count on Our Strength
+              {' '}
               <img src={w} alt="w" />
               <img src={g} alt="g" />
             </h4>
@@ -127,16 +134,17 @@ export default function ArchetypesSection() {
               This archetype focuses on creating and manipulating +1/+1 counters. Any creature can become a threatening champion
               &nbsp;for your cause - so long as you buff them with enough counters! Notable standout picks for this archetype include&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=559777">Luminarch Aspirant</a>
-              &nbsp;and&nbsp;
+              {' and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=485519">Pridemalkin</a>
               .
             </p>
           </ArchetypeBlurb>
         </Column>
-        <Column>
+        <Column style={{ maxWidth: '45vw' }}>
           <ArchetypeBlurb>
             <h4 id="life-exacts-a-toll">
-              Life Exacts a Toll&nbsp;
+              Life Exacts a Toll
+              {' '}
               <img src={w} alt="w" />
               <img src={b} alt="b" />
             </h4>
@@ -145,14 +153,15 @@ export default function ArchetypesSection() {
               &nbsp;Commanders in this archetype will let you trade life for any number of advantages - just be sure not to run out of life!
               &nbsp;Notable standout picks for this archetype include&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=567569">Feed the Swarm</a>
-              &nbsp;and&nbsp;
+              {' and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=425849">Soul Warden</a>
               .
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
             <h4 id="lands-bounty">
-              Land&apos;s Bounty&nbsp;
+              Land&apos;s Bounty
+              {' '}
               <img src={u} alt="u" />
               <img src={g} alt="g" />
             </h4>
@@ -161,14 +170,15 @@ export default function ArchetypesSection() {
               &nbsp;to cast plenty of haymaker creatures and spells to quickly finish the game. Notable standout picks for this archetype
               &nbsp;include&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=451085">Baloth Woodcrasher</a>
-              &nbsp;and&nbsp;
+              {' and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=548360">Mirrorshell Crab</a>
               .
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
             <h4 id="all-star-offense">
-              All-Star Offense&nbsp;
+              All-Star Offense
+              {' '}
               <img src={r} alt="r" />
               <img src={b} alt="b" />
             </h4>
@@ -177,14 +187,15 @@ export default function ArchetypesSection() {
               &nbsp;allows you to attack without care for the back-swing. Keep your opponents&apos; life totals down, and sooner or later
               &nbsp;they&apos;ll all buckle to your relentless assault. Notable standout picks for this archetype include&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=466838">Audacious Thief</a>
-              &nbsp;and&nbsp;
+              {' and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=567629">Vengeful Ancestor</a>
               .
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
             <h4 id="agents-of-artifice">
-              Agents of Artifice&nbsp;
+              Agents of Artifice
+              {' '}
               <img src={u} alt="u" />
               <img src={w} alt="w" />
             </h4>
@@ -193,14 +204,15 @@ export default function ArchetypesSection() {
               &nbsp;Create flying artifact thopter tokens, and equip them to score evasive damage! Notable standout picks for this archetype
               &nbsp;include&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=559810">Whirler Rogue</a>
-              &nbsp;and&nbsp;
+              {' and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=497531">Armored Skyhunter</a>
               .
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
             <h4 id="maximum-impact">
-              Maximum Impact&nbsp;
+              Maximum Impact
+              {' '}
               <img src={r} alt="r" />
               <img src={g} alt="g" />
             </h4>
@@ -209,7 +221,7 @@ export default function ArchetypesSection() {
               &nbsp;Force it to fight your behemoths - it&apos;s sure to go down! In this contest, you&apos;re top dog!
               &nbsp;Notable standout picks for this archetype include&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=443072">Territorial Allosaurus</a>
-              &nbsp;and&nbsp;
+              {' and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=489509">Flametongue Kavu</a>
               .
             </p>
