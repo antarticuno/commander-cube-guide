@@ -112,7 +112,7 @@ export default function ArchetypesSection() {
               <img src={b} alt="b" />
             </h4>
             <p>
-              This archetype focuses on top-deck and graveyard manipulation. Often times cards like&nbsp;
+              This archetype focuses on top-deck, hand, graveyard manipulation. Often times cards like&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=571415">Liliana&apos;s Elite</a>
               &nbsp;get stronger the larger your graveyard becomes. Other times, you can use the cards in your graveyard as fuel
               &nbsp;for high-costed power plays like&nbsp;
@@ -169,9 +169,9 @@ export default function ArchetypesSection() {
               This archetype idealizes ramp, ramp, ramp! Once you&apos;ve accumulated sufficient lands though, you&apos;ll be primed
               &nbsp;to cast plenty of haymaker creatures and spells to quickly finish the game. Notable standout picks for this archetype
               &nbsp;include&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=451085">Baloth Woodcrasher</a>
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=407641">Embodiment of Insight</a>
               {' and '}
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=548360">Mirrorshell Crab</a>
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509429">Dreamscape Artist</a>
               .
             </p>
           </ArchetypeBlurb>
