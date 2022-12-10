@@ -11,7 +11,7 @@ export default function GRNArchetypeList() {
         <img src={u} alt="u" />
         <img src={r} alt="r" />
       &nbsp;
-        <a href="#agents-of-artifice">Agents of Artifice</a>
+        <a href="#back-from-exile">Back from Exile</a>
       </li>
       <li>
         <img src={g} alt="g" />

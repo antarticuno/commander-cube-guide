@@ -29,7 +29,7 @@ export default function RNAArchetypeList() {
         <img src={u} alt="u" />
         <img src={w} alt="w" />
       &nbsp;
-        <a href="#above-the-clouds">Above the Clouds</a>
+        <a href="#agents-of-artifice">Agents of Artifice</a>
       </li>
       <li>
         <img src={r} alt="r" />

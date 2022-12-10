@@ -50,18 +50,18 @@ export default function ArchetypesSection() {
       <Row style={{ alignItems: 'flex-start', marginBottom: '20px' }}>
         <Column>
           <ArchetypeBlurb>
-            <h4 id="agents-of-artifice">
-              Agents of Artifice&nbsp;
+            <h4 id="back-from-exile">
+              Back from Exile&nbsp;
               <img src={u} alt="u" />
               <img src={r} alt="r" />
             </h4>
             <p>
-              This archetype focuses on cards that give payoffs for playing many equipments and artifact creatures.
-              &nbsp;Create flying artifact thopter tokens, and equip them to score evasive damage! Notable standout picks for this archetype
-              &nbsp;include&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=559810">Whirler Rogue</a>
+              This archetype focuses on cards that can be cast from exile, possibly at a later time or possibly for free.
+              &nbsp;Utilize mechanics like cascade and adventure that guarantee multiple card&apos;s worth of value.
+              &nsbp;Notable standout picks for this archetype include&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=553732">Kami of Celebration</a>
               &nbsp;and&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=563086">Two-Handed Axe</a>
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=513678">Expressive Iteration</a>
               .
             </p>
           </ArchetypeBlurb>
@@ -183,18 +183,18 @@ export default function ArchetypesSection() {
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
-            <h4 id="above-the-clouds">
-              Above the Clouds&nbsp;
+            <h4 id="agents-of-artifice">
+              Agents of Artifice&nbsp;
               <img src={u} alt="u" />
               <img src={w} alt="w" />
             </h4>
             <p>
-              This archetype focuses on dealing large amounts of unblocked damage. Utilize all available tools to lift your
-              &nbsp;army into the skies and then hit hard - be it equipments, auras, or counters, you&apos;ll watch your opponents fall.
-              &nbsp;Notable standout picks for this archetype include&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=485402">Tide Skimmer</a>
+              This archetype focuses on cards that give payoffs for playing many equipments and artifact creatures.
+              &nbsp;Create flying artifact thopter tokens, and equip them to score evasive damage! Notable standout picks for this archetype
+              &nbsp;include&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=559810">Whirler Rogue</a>
               &nbsp;and&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=522092">Healer&apos;s Flock</a>
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=497531">Armored Skyhunter</a>
               .
             </p>
           </ArchetypeBlurb>
