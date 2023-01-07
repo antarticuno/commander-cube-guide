@@ -7,12 +7,8 @@ import smolderingEgg from '../assets/smoldering-egg.jpeg';
 import ashmouthDragon from '../assets/ashmouth-dragon.jpeg';
 import extusOriqOverlord from '../assets/extus-oriq-overlord.jpeg';
 import awakenTheBloodAvatar from '../assets/awaken-the-blood-avatar.jpeg';
-import kytheon from '../assets/kytheon-hero-of-akros.jpeg';
-import gideon from '../assets/gideon-battle-forged.jpeg';
 import flameChanneler from '../assets/flame-channeler.jpeg';
 import embodimentOfFlame from '../assets/embodiment-of-flame.jpeg';
-import nissaVastwood from '../assets/nissa-vastwood-seer.jpeg';
-import nissaAnimist from '../assets/nissa-sage-animist.jpeg';
 import uvilda from '../assets/uvilda.jpeg';
 import nassari from '../assets/nassari.jpeg';
 import spiderSpawning from '../assets/spider-spawning.jpeg';
@@ -67,16 +63,12 @@ export default function QuickReferenceSection() {
         </Row>
         <Row>
           <MultiColumn>
-            <img src={kytheon} alt="kytheon" />
-            <img src={gideon} alt="gideon" />
-          </MultiColumn>
-          <MultiColumn>
             <img src={flameChanneler} alt="flame-channeler" />
             <img src={embodimentOfFlame} alt="embodiment-of-flame" />
           </MultiColumn>
           <MultiColumn>
-            <img src={nissaVastwood} alt="nissa-vastwood" />
-            <img src={nissaAnimist} alt="nissa-animist" />
+            <img src={uvilda} alt="uvilda" />
+            <img src={nassari} alt="nassari" />
           </MultiColumn>
         </Row>
       </Column>
@@ -88,10 +80,6 @@ export default function QuickReferenceSection() {
       <Row>
         <MultiColumn>
           <img src={spiderSpawning} alt="spider-spawning" />
-        </MultiColumn>
-        <MultiColumn>
-          <img src={uvilda} alt="uvilda" />
-          <img src={nassari} alt="nassari" />
         </MultiColumn>
         <MultiColumn>
           <img src={biomassMutation} alt="biomass-mutation" />

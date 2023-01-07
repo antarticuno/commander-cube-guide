@@ -61,7 +61,7 @@ export default function ArchetypesSection() {
             <p>
               This archetype focuses on cards that can be cast from exile, possibly at a later time or possibly for free.
               &nbsp;Utilize mechanics like cascade and adventure that guarantee multiple card&apos;s worth of value.
-              &nsbp;Notable standout picks for this archetype include&nbsp;
+              &nbsp;Notable standout picks for this archetype include&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=553732">Kami of Celebration</a>
               {' and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=513678">Expressive Iteration</a>
@@ -98,7 +98,7 @@ export default function ArchetypesSection() {
               Then, cast a mass-damage dealing spell and watch the world burn. Notable standout picks for this archetype include&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=470691">Guttersnipe</a>
               {', '}
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=513497">Leonin Lightscribe</a>
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=394715">Strongarm Monk</a>
               {', and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=519217">Volcanic Vision</a>
               .
@@ -119,7 +119,7 @@ export default function ArchetypesSection() {
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=559809">Treasure Cruise</a>
               . Be sure to pick up cards that fill your graveyard via repeatable activated or triggered abilities to keep your engine
               &nbsp;running smoothly (such as&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=495970">Nightveil Sprite</a>
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=220179">Merfolk Looter</a>
               ).
             </p>
           </ArchetypeBlurb>
@@ -186,7 +186,7 @@ export default function ArchetypesSection() {
               This archetype focuses on a hyper-aggressive strategy - attack! Mechanics like goad are your friend here since it
               &nbsp;allows you to attack without care for the back-swing. Keep your opponents&apos; life totals down, and sooner or later
               &nbsp;they&apos;ll all buckle to your relentless assault. Notable standout picks for this archetype include&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=466838">Audacious Thief</a>
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=389422">Abyssal Persecutor</a>
               {' and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=567629">Vengeful Ancestor</a>
               .
