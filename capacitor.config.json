@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.commander_cube",
+  "appName": "commander_cube",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

@@ -1,0 +1,7 @@
+{
+  "name": "commander_cube",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
