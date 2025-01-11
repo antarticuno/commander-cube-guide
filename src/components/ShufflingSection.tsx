@@ -10,7 +10,8 @@ const ShufflingStyled = styled(Column)`
     text-align: left;
   }
   li {
-    font-weight: 200;
+    font-weight: 300;
+    line-height: 1.6em;
   }
 `;
 

@@ -23,13 +23,13 @@ export default function RNAArchetypeList() {
         <img src={r} alt="r" />
         <img src={b} alt="b" />
       &nbsp;
-        <a href="#all-star-offense">All-Star Offense</a>
+        <a href="#back-from-exile">Back From Exile</a>
       </li>
       <li>
         <img src={u} alt="u" />
         <img src={w} alt="w" />
       &nbsp;
-        <a href="#agents-of-artifice">Agents of Artifice</a>
+        <a href="#political-ploys">Political Ploys</a>
       </li>
       <li>
         <img src={r} alt="r" />

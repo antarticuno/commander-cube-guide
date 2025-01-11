@@ -30,7 +30,8 @@ const Article = styled(Column)`
     }
   }
   p {
-    font-weight: 200;
+    font-weight: 300;
+    line-height: 1.4em;
   }
   hr {
     margin: 10px auto;

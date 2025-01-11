@@ -22,7 +22,7 @@ const ArchetypesStyled = styled(Column)`
   }
   li {
     list-style-type: none;
-    font-weight: 200;
+    font-weight: 300;
   }
 `;
 
@@ -52,8 +52,8 @@ export default function ArchetypesSection() {
       <Row style={{ alignItems: 'flex-start', marginBottom: '20px', justifyContent: 'center' }}>
         <Column style={{ maxWidth: '45vw' }}>
           <ArchetypeBlurb>
-            <h4 id="back-from-exile">
-              Back from Exile
+            <h4 id="agents-of-artifice">
+              Agents of Artifice
               {' '}
               <img src={u} alt="u" />
               <img src={r} alt="r" />
@@ -124,8 +124,8 @@ export default function ArchetypesSection() {
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
-            <h4 id="count-on-our-strength">
-              Count on Our Strength
+            <h4 id="an-enchanting-presence">
+              An Enchanting Presence
               {' '}
               <img src={w} alt="w" />
               <img src={g} alt="g" />
@@ -176,8 +176,8 @@ export default function ArchetypesSection() {
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
-            <h4 id="all-star-offense">
-              All-Star Offense
+            <h4 id="back-from-exile">
+              Back From Exile
               {' '}
               <img src={r} alt="r" />
               <img src={b} alt="b" />
@@ -193,8 +193,8 @@ export default function ArchetypesSection() {
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
-            <h4 id="agents-of-artifice">
-              Agents of Artifice
+            <h4 id="political-ploys">
+              Political Ploys
               {' '}
               <img src={u} alt="u" />
               <img src={w} alt="w" />
