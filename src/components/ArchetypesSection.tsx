@@ -52,70 +52,73 @@ export default function ArchetypesSection() {
       <Row style={{ alignItems: 'flex-start', marginBottom: '20px', justifyContent: 'center' }}>
         <Column style={{ maxWidth: '45vw' }}>
           <ArchetypeBlurb>
-            <h4 id="agents-of-artifice">
+            <h4 id="izzet">
               Agents of Artifice
               {' '}
               <img src={u} alt="u" />
               <img src={r} alt="r" />
             </h4>
             <p>
-              This archetype focuses on cards that can be cast from exile, possibly at a later time or possibly for free.
-              &nbsp;Utilize mechanics like cascade and adventure that guarantee multiple card&apos;s worth of value.
-              &nbsp;Notable standout picks for this archetype include&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=553732">Kami of Celebration</a>
-              {' and '}
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=513678">Expressive Iteration</a>
-              .
+              This archetype focuses on synergy between manufacturing artifact creature tokens and equipment to make those
+              &nbsp;creatures more effective at dealing damage. Focus on creatures and keyword abilities involving evasion (such as&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=559810">Whirler Rogue</a>
+              ) as these are key to maneuvering past your opponents&apos; defenses. Better still when you can utilize cards like&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=665626">Goldspan Dragon</a>
+              {' or '}
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=553909">Cyberdrive Awakener</a>
+              &nbsp;to power-up all of your assembled toys.
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
-            <h4 id="a-greater-sacrifice">
-              A Greater Sacrifice
+            <h4 id="golgari">
+              A Necessary Sacrifice
               {' '}
               <img src={g} alt="g" />
               <img src={b} alt="b" />
             </h4>
             <p>
-              This archetype focuses on sacrificing and resurrecting creatures to gain value over time. With a litany of
-              &nbsp;reanimation spells and efficiently costed (and often re-animatable) creatures, you&apos;ll be sure to wear down your
-              &nbsp;opponents&apos; defenses in no time! Notable standout picks for this archetype include&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=539379">Fleshbag Marauder</a>
+              This archetype focuses on exploiting the natural order of life &amp; death to generate repeated advantage over your opponents.
+              &nbsp;Often this will manifest as sacrificing creatures for powerful spells &amp; effects, followed by resurrecting them
+              &nbsp;so the cycle can begin again. With a litany of reanimation/recursion spells (such as&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=522255">Timeless Witness</a>
+              ) and efficiently costed creatures, you&apos;ll be sure to wear down your opponents&apos; defenses.
+              &nbsp;Solid picks for this archetype include&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=622804">Vindictive Lich</a>
               {' and '}
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=430381">Viridian Emissary</a>
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=679138">High-Society Hunter</a>
               .
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
-            <h4 id="spells-thunder">
-              Spell&apos;s Thunder
+            <h4 id="boros">
+              Fire &amp; Lightning
               {' '}
               <img src={r} alt="r" />
               <img src={w} alt="w" />
             </h4>
             <p>
               This archetype focuses on casting many damage-dealing instant and sorcery spells. Pick up cards that trigger off of
-              &nbsp;casting instant and sorcery spells to add value to every spell cast.&nbsp;
-              Then, cast a mass-damage dealing spell and watch the world burn. Notable standout picks for this archetype include&nbsp;
+              &nbsp;casting instant and sorcery spells to add extra value upon every spell cast (such as&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=470691">Guttersnipe</a>
-              {', '}
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=394715">Strongarm Monk</a>
-              {', and '}
+              ). Then, cast mass-damage dealing spells and watch the world burn. Some of the haymakers for this archetype include&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=513572">Crackle with Power</a>
+              {' and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=519217">Volcanic Vision</a>
               .
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
-            <h4 id="delving-for-power">
+            <h4 id="dimir">
               Delving for Power
               {' '}
               <img src={u} alt="u" />
               <img src={b} alt="b" />
             </h4>
             <p>
-              This archetype focuses on top-deck, hand, graveyard manipulation. Often times cards like&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=571415">Liliana&apos;s Elite</a>
-              &nbsp;get stronger the larger your graveyard becomes. Other times, you can use the cards in your graveyard as fuel
-              &nbsp;for high-costed power plays like&nbsp;
+              This archetype focuses on top-deck, hand &amp; graveyard manipulation. Often, cards like&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=665616">Necrogoyf</a>
+              &nbsp;scale in power with the size of your graveyard. Other times, you can use cards in the graveyard as fuel
+              &nbsp;for high-costed, powerful spells like&nbsp;
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=559809">Treasure Cruise</a>
               . Be sure to pick up cards that fill your graveyard via repeatable activated or triggered abilities to keep your engine
               &nbsp;running smoothly (such as&nbsp;
@@ -124,25 +127,26 @@ export default function ArchetypesSection() {
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
-            <h4 id="an-enchanting-presence">
+            <h4 id="selesnya">
               An Enchanting Presence
               {' '}
               <img src={w} alt="w" />
               <img src={g} alt="g" />
             </h4>
             <p>
-              This archetype focuses on creating and manipulating +1/+1 counters. Any creature can become a threatening champion
-              &nbsp;for your cause - so long as you buff them with enough counters! Notable standout picks for this archetype include&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=559777">Luminarch Aspirant</a>
+              This archetype excels at augmenting your creatures - allowing the smallest woodland critter to become a terrifying presence.
+              &nbsp;Combine multiple auras with synergistic effects to create an unstoppable linebreaker, and utilize protective
+              &nbsp;spells &amp; enchantments to further shield them from harm. Strong picks for this archetype include&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=680704">Angelic Destiny</a>
               {' and '}
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=485519">Pridemalkin</a>
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=662316">Nyxborn Hydra</a>
               .
             </p>
           </ArchetypeBlurb>
         </Column>
         <Column style={{ maxWidth: '45vw' }}>
           <ArchetypeBlurb>
-            <h4 id="life-exacts-a-toll">
+            <h4 id="orzhov">
               Life Exacts a Toll
               {' '}
               <img src={w} alt="w" />
@@ -151,76 +155,79 @@ export default function ArchetypesSection() {
             <p>
               This archetype focuses on cards that offset your life total, and then utilizes that resource later for punishing effects.
               &nbsp;Commanders in this archetype will let you trade life for any number of advantages - just be sure not to run out of life!
-              &nbsp;Notable standout picks for this archetype include&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=567569">Feed the Swarm</a>
+              &nbsp;Noteworthy utility picks for this archetype include&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=489678">Archangel of Thune</a>
               {' and '}
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=425849">Soul Warden</a>
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=673500">Enduring Tenacity</a>
               .
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
-            <h4 id="lands-bounty">
+            <h4 id="simic">
               Land&apos;s Bounty
               {' '}
               <img src={u} alt="u" />
               <img src={g} alt="g" />
             </h4>
             <p>
-              This archetype idealizes ramp, ramp, ramp! Once you&apos;ve accumulated sufficient lands though, you&apos;ll be primed
-              &nbsp;to cast plenty of haymaker creatures and spells to quickly finish the game. Notable standout picks for this archetype
-              &nbsp;include&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=407641">Embodiment of Insight</a>
+              This archetype epitomizes boundless growth. Assemble an ever-increasing pool of mana through land acceleration
+              {' spells such as '}
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=683336">Rampant Growth</a>
+              . Once you&apos;ve accumulated sufficient lands though, you&apos;ll need to cast plenty of haymaker creatures
+              &nbsp;and other spells to quickly finish the game such as&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=583754">Awaken the Woods</a>
               {' and '}
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=509429">Dreamscape Artist</a>
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=500883">Scourge of Fleets</a>
               .
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
-            <h4 id="back-from-exile">
-              Back From Exile
+            <h4 id="rakdos">
+              Exiled Ones
               {' '}
               <img src={r} alt="r" />
               <img src={b} alt="b" />
             </h4>
             <p>
-              This archetype focuses on a hyper-aggressive strategy - attack! Mechanics like goad are your friend here since it
-              &nbsp;allows you to attack without care for the back-swing. Keep your opponents&apos; life totals down, and sooner or later
-              &nbsp;they&apos;ll all buckle to your relentless assault. Notable standout picks for this archetype include&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=389422">Abyssal Persecutor</a>
+              This archetype focuses on cards that can be cast from exile, possibly at a later time or possibly for free.
+              &nbsp;Utilize mechanics like cascade and adventure that guarantee two-for-one effects for every spell you cast.
+              &nbsp;High synergy picks for this archetype include&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=553732">Kami of Celebration</a>
               {' and '}
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=567629">Vengeful Ancestor</a>
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=612506">Murderous Rider</a>
               .
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
-            <h4 id="political-ploys">
+            <h4 id="azorius">
               Political Ploys
               {' '}
               <img src={u} alt="u" />
               <img src={w} alt="w" />
             </h4>
             <p>
-              This archetype focuses on cards that give payoffs for playing many equipments and artifact creatures.
-              &nbsp;Create flying artifact thopter tokens, and equip them to score evasive damage! Notable standout picks for this archetype
-              &nbsp;include&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=559810">Whirler Rogue</a>
-              {' and '}
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=497531">Armored Skyhunter</a>
-              .
+              This archetype leans into the delicate touch required to navigate the multiplayer landscape. At times you&apos;ll
+              &nbsp;need to play nice, gifting boons to your opponents&apos; creatures with cards like&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=650171">Orzhov Advokist</a>
+              , or incapacitating some major threats with cards like&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=622701">Fall From Favor</a>
+              . Ultimately, when the right moment presents itself, strike with powerful, evasive creatures (like&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=519118">Angel of Serenity</a>
+              ) and seize your victory!
             </p>
           </ArchetypeBlurb>
           <ArchetypeBlurb>
-            <h4 id="maximum-impact">
+            <h4 id="gruul">
               Maximum Impact
               {' '}
               <img src={r} alt="r" />
               <img src={g} alt="g" />
             </h4>
             <p>
-              This archetype focuses on maximizing power and leveraging it to your advantage. Pesky utility creature making life difficult?
-              &nbsp;Force it to fight your behemoths - it&apos;s sure to go down! In this contest, you&apos;re top dog!
-              &nbsp;Notable standout picks for this archetype include&nbsp;
-              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=443072">Territorial Allosaurus</a>
+              This archetype focuses on maximizing power and leveraging it to your advantage. Pesky utility creatures making life difficult?
+              &nbsp;Force them to fight your behemoths - it&apos;s about to go down! In this contest, you&apos;re the apex
+              &nbsp;predator and it&apos;s all about survival of the fittest. Standout picks for this archetype include&nbsp;
+              <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=627777">Predatory Rampage</a>
               {' and '}
               <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=489509">Flametongue Kavu</a>
               .

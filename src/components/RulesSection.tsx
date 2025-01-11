@@ -20,8 +20,8 @@ const RulesStyled = styled(Column)`
 const RulesBlock = styled('section')`
   margin: 20px 0;
   padding: 20px 30px 20px 80px;
-  border-left: 10px double #333;
-  background-color: #F0F0F0;
+  border-left: 10px solid #CCC;
+  background-color: #F8F8F8;
   text-align: justify;
   
   code {

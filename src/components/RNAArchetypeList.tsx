@@ -11,31 +11,31 @@ export default function RNAArchetypeList() {
         <img src={w} alt="w" />
         <img src={b} alt="b" />
       &nbsp;
-        <a href="#life-exacts-a-toll">Life Exacts a Toll</a>
+        <a href="#orzhov">Life Exacts a Toll</a>
       </li>
       <li>
         <img src={u} alt="u" />
         <img src={g} alt="g" />
       &nbsp;
-        <a href="#lands-bounty">Land&apos;s Bounty</a>
+        <a href="#simic">Land&apos;s Bounty</a>
       </li>
       <li>
         <img src={r} alt="r" />
         <img src={b} alt="b" />
       &nbsp;
-        <a href="#back-from-exile">Back From Exile</a>
+        <a href="#rakdos">Exiled Ones</a>
       </li>
       <li>
         <img src={u} alt="u" />
         <img src={w} alt="w" />
       &nbsp;
-        <a href="#political-ploys">Political Ploys</a>
+        <a href="#azorius">Political Ploys</a>
       </li>
       <li>
         <img src={r} alt="r" />
         <img src={g} alt="g" />
       &nbsp;
-        <a href="#maximum-impact">Maximum Impact</a>
+        <a href="#gruul">Maximum Impact</a>
       </li>
     </ul>
   );
