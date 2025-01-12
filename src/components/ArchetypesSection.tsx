@@ -240,7 +240,7 @@ export default function ArchetypesSection() {
         &nbsp;Typically these commanders will establish an additional archetype on top of the ones introduced by the 2-color pairings,
         &nbsp;but strive to do something unique on top of the existing archetypes. For instance,&nbsp;
         <a href="https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=450652">Yennet, Cryptic Sovereign</a>
-        &nbsp;is a 3-color commander that slots well into the UW-fliers and UB-topdeck/mill strategies,
+        &nbsp;is a 3-color commander that slots well into the UW-politics and UB-topdeck/mill strategies,
         &nbsp;but focuses the deck-builder to prioritize something new (odd-costed cards). The 3-color commanders
         &nbsp;also help establish a safety net for deck-builders who may find themselves pivoting on color-identities mid-draft.
       </p>
